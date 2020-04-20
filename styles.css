@@ -1,0 +1,163 @@
+
+
+* {
+    padding : 0px;
+    margin : 0px;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    display:flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main{
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin:auto;
+    height: 10vh;
+    align-items: center;
+    border-style: none;
+}
+
+header .right{
+    margin:0px;
+    padding:0px;
+}
+
+.logo{
+    font-size: 25px;
+    flex:1;
+    font-weight: bold;
+}
+
+nav a {
+    justify-content: flex-end;
+    color: #333333;
+    font-size: 16px;
+    font-weight: normal; 
+}
+
+a{
+    outline: none;
+}
+
+.arrow{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;    
+    opacity: 1;
+    height: 1.4rem;
+    left: 39%;
+    animation: bounce 1s ease infinite;
+}
+  
+@keyframes bounce {
+    50% {
+      transform: translateY(-50%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+}
+
+
+.description{
+    height: 55vh;
+    margin-top: 10%;
+    padding-top:50px;
+
+}
+
+.description p{
+    width: 600px;
+    line-height: 129.19%;
+    font-size: 19px;
+    text-align: justify;
+}
+
+.video{
+    padding-bottom: 50px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+
+.intro-text{
+    display: flex;
+
+}
+
+.intro-text img{
+    width: 500px;
+}
+
+.text{
+    height: 40vh;
+    margin:auto;
+    color: #333333;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 35px;
+    line-height: 129.19%;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+}
+article{
+    flex:3;
+
+}
+aside{
+    background-color: #ffffff;
+    overflow-y: auto;
+    flex: 1;
+
+}
+
+footer{
+    height: 50px;
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+footer a{
+    text-decoration:none;
+}
+footer img{
+    width:100px;
+}
+.disqus-comment{
+    margin-top: 800px;
+}
+.disqus-comment2{
+    margin-top: 100px;
+}
+
+
+.tweets h1{
+    font-size: 25px;
+    text-align: justify;
+    padding-bottom: 10px;
+}
+
+
+.quotes img{
+    margin: 3%;
+}
